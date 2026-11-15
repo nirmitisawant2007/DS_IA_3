@@ -57,3 +57,42 @@ Handle collisions using Separate Chaining.
 Compare manual calculations with actual program output.
 
 Understand incremental project development.
+Algorithm
+Initialize all hash table positions as empty.
+
+Read the 20 personalized values.
+
+Calculate the hash index using key % 23.
+
+Check whether the calculated index is empty.
+
+If occupied, use Linear Probing to find the next available position.
+
+Insert the value into the available position.
+
+Repeat until all values are inserted.
+
+Display the final hash table.
+
+Compilation and Execution
+Compile the program using:
+
+Bash
+g++ hash_table.cpp -o hash_table
+Execute the program:
+
+Bash
+./hash_table
+For Windows:
+
+Bash
+hash_table.exe
+Time Complexity
+Average insertion: O(1), assuming a reasonable load factor.
+
+Worst-case insertion: O(n) due to linear probing.
+
+Display operation: O(m), where m is the table size.
+
+Final Result
+The project demonstrates successful implementation of a hash table using the Division Method and Linear Probing with 20 personalized values.
